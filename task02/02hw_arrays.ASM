@@ -1,17 +1,17 @@
-;Вариант 3.
-;Разработать программу, которая вводит одномерный массив A[N],
-;формирует из элементов массива A новый массив B из сумм соседних
-;элементов A ({A[0] + A[1], A[1] + A[2], ...}) и выводит его.
-;Память под массивы может выделяться как статически, так и динамически
-;по выбору разработчика.
+;Option 3.
+;Develop a program that enters a one-dimensional array A[N],
+;forms a new array B of the sum of neighboring elements
+;of array A (B = {A[0] + A[1], A[1] + A[2], ...}) and outputs it.
+;Memory for arrays can be allocated either statically or dynamically
+;at the developer's choice.
 ;
-;Разбить решение задачи на функции следующим образом:
-;        1. Ввод и вывод массивов оформить как подпрограммы
-;        2. Выполнение задания по варианту оформить как процедуру
-;        3. Организовать вывод как исходного, так и сформированного массивов
+;Divide the solution of the problem into functions as follows:
+;       1. Input and output of arrays make as subroutines
+;       2. Execution of the task make as a procedure
+;       3. Organize the output of both the source and generated arrays
 ;
-;Указанные процедуры могут использовать данные напрямую (имитация процедур без параметров).
-;Имитация работы с параметрами также допустима.
+;These procedures can use data directly (simulating procedures without parameters).
+;Imitation of working with parameters is also allowed.
 
 format PE console
 entry start
