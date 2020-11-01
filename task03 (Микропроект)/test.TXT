@@ -1,0 +1,8 @@
+Search range: [1; 65535] (from 1 to an unsigned machine word)
+Press ENTER to calculate the maximum prime number...
+
+|  Result: 65521  |
+
+Calculated number is prime and the biggest for the given range.
+
+Press any key to exit...
